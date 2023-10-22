@@ -20,6 +20,7 @@
 DATABASE_URL = "postgresql+asyncpg://user:password@postgres:5432/db_name"
 на ваши данные для подключения к СУБД(см. п.1)
 - запустите сервис с помощью команды
+  
 docker-compose up -d app
 
 3 Пример запроса:
