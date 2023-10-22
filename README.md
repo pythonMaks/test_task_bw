@@ -9,6 +9,7 @@
  POSTGRES_DB: db_name
 
 - перейдите в каталог проекта
+  
   cd test_task_bw
  - запустите СУБД с помощью команды 
  docker-compose up -d postgres
