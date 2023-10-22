@@ -1,4 +1,4 @@
-﻿1 Для запуска базы СУБД PostgreSQL с помощью docker-compose:
+﻿1 Для запуска СУБД PostgreSQL с помощью docker-compose:
 - склонируйте репозиторий git clone https://github.com/pythonMaks/test_task_bw
 - в файле docker-compose.yml замените данные для подключения к бд на желаемые:
 
