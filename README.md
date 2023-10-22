@@ -22,3 +22,6 @@ DATABASE_URL = "postgresql+asyncpg://user:password@postgres:5432/db_name"
 - запустите сервис с помощью команды
 docker-compose up -d app
 
+3 Пример запроса:
+- curl -X POST "http://localhost:8000/questions/" -H "Content-Type: application/json" -d '{"questions_num": 5}'
+
