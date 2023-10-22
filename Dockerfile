@@ -10,4 +10,3 @@ ENV DATABASE_URL "postgresql+asyncpg://user:password@postgres:5432/db_name"
 
 
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-M
