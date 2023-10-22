@@ -8,7 +8,7 @@
  
  POSTGRES_DB: db_name
 
- -запустите СУБД с помощью команды 
+ - запустите СУБД с помощью команды 
  docker-compose up -d postgres
 
 
