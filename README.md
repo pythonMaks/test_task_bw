@@ -17,7 +17,7 @@
 
 
 2 Для запуска веб-сервиса из второго задания:
-- в файлах Dockerfile и main.py замените данные(user, password и db_name) в строке 
+- в файлах Dockerfile, docker-compose.yml и main.py замените данные(user, password и db_name) в строке 
 DATABASE_URL = "postgresql+asyncpg://user:password@postgres:5432/db_name"
 на ваши данные для подключения к СУБД(см. п.1)
 - запустите сервис с помощью команды
